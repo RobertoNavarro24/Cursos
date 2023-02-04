@@ -1,11 +1,12 @@
 class Monitor:
     contador_monitores = 0
+
     @classmethod
     def aumentar_monitores(cls):
         cls.contador_monitores += 1
         return cls.contador_monitores
 
-    def __int__(self, marca: str, tamano: int):
+    def __init__(self, marca: str, tamano: int):
         self.idMonitor = Monitor.aumentar_monitores()
         self._marca = marca
         self._tamano = tamano

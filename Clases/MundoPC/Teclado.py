@@ -15,9 +15,9 @@ class Teclado(DispositivoEntrada):
 
 
 if __name__ == "__main__":
-    raton1 = Teclado("usb", "HP")
-    raton2 = Teclado("bluetooth", "Acer")
-    raton3 = Teclado("usb", "Gamer")
-    print(raton1)
-    print(raton2)
-    print(raton3)
+    teclado1 = Teclado("usb", "HP")
+    teclado2 = Teclado("bluetooth", "Acer")
+    teclado3 = Teclado("usb", "Gamer")
+    print(teclado1)
+    print(teclado2)
+    print(teclado3)
